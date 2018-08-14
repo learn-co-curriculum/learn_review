@@ -1,5 +1,10 @@
 require "readability_score/version"
 
 module ReadabilityScore
-  # Your code goes here...
+  class Check
+    def self.scores
+      puts "hello"
+    end
+  end
+
 end

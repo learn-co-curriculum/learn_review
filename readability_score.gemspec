@@ -9,19 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["maxwellbenton"]
   spec.email         = ["maxwellbenton@gail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Readable generates readability scores for README.md files in the terminal}
+  spec.description   = %q{Readable uses the Odyssey gem's built in readability index scores to test a particular README.md file. Once installed, simply navigate to a directory with a README present and call the gem to get feedback on the content.}
+  spec.homepage      = "https://github.com/learn-co-curriculum/readable/"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
