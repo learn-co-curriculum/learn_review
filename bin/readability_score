@@ -1,4 +1,0 @@
-require 'readability_score'
-
-check_readability = ReadabilityScore::Check.new
-check_readability.scores

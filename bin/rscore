@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "readability_score"
+
+if ARGV.length != 1
+  ReadabilityScore.check
+else
+  ReadabilityScore.check ARGV[0]
+end

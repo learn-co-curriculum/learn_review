@@ -1,43 +1,32 @@
 # Readability Score
 
-<!-- Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/readability_score`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem is in development and may be error prone.
 
-TODO: Delete this and the text above, and describe your gem -->
+Readability Score is a command line wrapper for the
+[Odyssey](https://github.com/cameronsutter/odyssey) gem that allows for simple
+and fast readability scoring for markdown files via the command line.
+
+**Note:** Due to a bug in the current version of Odyssey, after the odyssey gem is installed, you must change the name of _one_ file, `formula.rb` to `_formula.rb` so that it is the first file in its folder.
+
+The file is located within the odyssey gem, and should be found somewhere similar to:
+
+```sh
+/Users/.../.rvm/gems/ruby-2.5.1/gems/odyssey-0.1.8/lib/formulas
+```
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'readability_score'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install readability_score
 
 ## Usage
 
-TODO: Write usage instructions here
+Once installed, your terminal should now be able to run:
 
-## Development
+    $ rscore
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Navigate to a folder with a markdown file. By default, `rscore` will look for
+`README.md`, but you can also specify a filename:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/maxwellbenton/readability_score. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the ReadabilityScore project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/maxwellbenton/readability_score/blob/master/CODE_OF_CONDUCT.md).
+    $ rscore LICENSE.md
