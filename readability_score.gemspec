@@ -4,11 +4,11 @@ Gem::Specification.new do |s|
   s.date        = '2018-08-14'
   s.summary     = %q{Readable generates readability scores for README.md files in the terminal}
   s.description = %q{Readable uses the Odyssey gem's built in readability index scores to test a particular README.md file. Once installed, simply navigate to a directory with a README present and call the gem to get feedback on the content.}
-  s.authors     = ["maxwellbenton"]
-  s.email       = ["maxwellbenton@gail.com"]
+  s.authors     = ["flatironschool"]
+  s.email       = ["maxwell@flatironschool.com"]
   s.files       = ["lib/readability_score.rb"]
   s.homepage    =
-    "https://github.com/learn-co-curriculum/readable/"
+    "https://github.com/learn-co-curriculum/readability_score/"
   s.license       = 'MIT'
   s.executables << 'rscore'
 end
