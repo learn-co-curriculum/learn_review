@@ -33,4 +33,4 @@ Navigate to a folder with a markdown file. By default, `rscore` will look for
 
     $ rscore LICENSE.md
 
-This gem is currently under development
+This gem is currently under development.
