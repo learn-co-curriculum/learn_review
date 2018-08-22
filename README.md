@@ -32,3 +32,5 @@ Navigate to a folder with a markdown file. By default, `rscore` will look for
 `README.md`, but you can also specify a filename:
 
     $ rscore LICENSE.md
+
+This gem is currently under development.
