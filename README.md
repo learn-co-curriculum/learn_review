@@ -6,7 +6,9 @@ Readability Score is a command line wrapper for the
 [Odyssey](https://github.com/cameronsutter/odyssey) gem that allows for simple
 and fast readability scoring for markdown files via the command line.
 
-**Note:** Due to a bug in the current version of Odyssey, after the odyssey gem is installed, you must change the name of _one_ file, `formula.rb` to `_formula.rb` so that it is the first file in its folder.
+**Note:** Due to a bug in the current version of Odyssey, after the odyssey gem is
+installed, you must change the name of _one_ file, `formula.rb` to `_formula.rb`
+so that it is the first file in its folder.
 
 The file is located within the odyssey gem, and should be found somewhere similar to:
 
