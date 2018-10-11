@@ -1,6 +1,6 @@
-# Readability Score
+# Learn Create
 
-This gem is in development and may be error prone.
+This gem is designed to aid in the creation of learn lessons.
 
 Readability Score is a command line wrapper for the
 [Odyssey](https://github.com/cameronsutter/odyssey) gem that allows for simple
@@ -18,19 +18,24 @@ The file is located within the odyssey gem, and should be found somewhere simila
 
 ## Installation
 
-Install it yourself as:
+Before using `learn_create`, you must install `hub`
 
-    $ gem install readability_score
+```sh
+    $ brew install hub
+```
+
+Once `hub` is installed, install the `learn_create` as:
+
+```sh
+    $ gem install learn_create
+```
 
 ## Usage
 
-Once installed, your terminal should now be able to run:
+To create a new learn repository, navigate to the folder where you'd like your repo to be created locally. Type:
 
-    $ rscore
+```sh
+learn_create
+```
 
-Navigate to a folder with a markdown file. By default, `rscore` will look for
-`README.md`, but you can also specify a filename:
-
-    $ rscore LICENSE.md
-
-This gem is currently under development
+Follow the command line prompts for setting up and naming your repository. The repo will be created locally and pushed to GitHub.
