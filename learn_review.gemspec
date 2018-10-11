@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'learn_review'
-  s.version = '0.0.0'
-  s.date = '2018-10-10'
+  s.version = '0.0.1'
+  s.date = '2018-10-11'
   s.authors = ['flatironschool']
   s.email = 'maxwell@flatironschool.com'
   s.license = 'MIT'
@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
     'Rakefile',
     'lib/learn_review.rb'
   ]
+  s.homepage = 'https://github.com/learn-co-curriculum/learn_review'
   s.require_paths = ['lib']
   s.executables << 'learn_review'
 end
