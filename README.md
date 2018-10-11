@@ -1,8 +1,8 @@
-# Learn Create
+# Learn Review
 
-This gem is designed to aid in the creation of learn lessons.
+This gem is designed to aid in the review of learn lessons. It is under development.
 
-Readability Score is a command line wrapper for the
+`learn_review` is a command line wrapper for the
 [Odyssey](https://github.com/cameronsutter/odyssey) gem that allows for simple
 and fast readability scoring for markdown files via the command line.
 
@@ -18,24 +18,16 @@ The file is located within the odyssey gem, and should be found somewhere simila
 
 ## Installation
 
-Before using `learn_create`, you must install `hub`
-
 ```sh
-    $ brew install hub
-```
-
-Once `hub` is installed, install the `learn_create` as:
-
-```sh
-    $ gem install learn_create
+    $ gem install learn_review
 ```
 
 ## Usage
 
-To create a new learn repository, navigate to the folder where you'd like your repo to be created locally. Type:
+To review a learn lesson, navigate to the repository folder and type:
 
 ```sh
-learn_create
+learn_review
 ```
 
-Follow the command line prompts for setting up and naming your repository. The repo will be created locally and pushed to GitHub.
+The results will be displayed in the terminal.

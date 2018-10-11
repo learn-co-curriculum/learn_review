@@ -1,16 +1,16 @@
 Gem::Specification.new do |s|
-  s.name = 'learn_create'
-  s.version = '0.0.4'
+  s.name = 'learn_review'
+  s.version = '0.0.0'
   s.date = '2018-10-10'
   s.authors = ['flatironschool']
   s.email = 'maxwell@flatironschool.com'
   s.license = 'MIT'
-  s.summary = 'learn_create is a tool for creating learn.co lessons on github'
+  s.summary = 'learn_review is a tool for reviewing learn.co lessons'
   s.files = [
     'Gemfile',
     'Rakefile',
-    'lib/learn_create.rb'
+    'lib/learn_review.rb'
   ]
   s.require_paths = ['lib']
-  s.executables << 'learn_create'
+  s.executables << 'learn_review'
 end

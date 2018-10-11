@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'learn_review'
+LearnReview.new

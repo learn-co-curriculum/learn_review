@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    learn_create (0.0.4)
+    learn_review (0.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -18,7 +18,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   json
-  learn_create!
+  learn_review!
   odyssey
   require_all
 
